@@ -1,11 +1,15 @@
 # 🍕 Fast React Pizza Co.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-fast--react--pizza.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://fast-react-pizza-annasfaruqui.netlify.app/)
+
 [![React](https://img.shields.io/badge/React-19.3.0-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.12-764ABC?logo=redux&logoColor=white)](https://redux-toolkit.js.org/)
 [![React Router](https://img.shields.io/badge/React_Router-v7.18-CA4245?logo=reactrouter&logoColor=white)](https://reactrouter.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.3-38B2AC?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+
+> 🌐 **Live Website:** [https://fast-react-pizza-annasfaruqui.netlify.app/](https://fast-react-pizza-annasfaruqui.netlify.app/)
 
 A modern, fast, and feature-complete pizza ordering single-page application (SPA). Built with **React 19**, **TypeScript**, **Redux Toolkit**, and **React Router Data APIs (v7)**, styled with **Tailwind CSS v4**, and bundled with **Vite**.
 
@@ -154,7 +158,6 @@ npm run preview
 
 ## 🙏 Credits & Acknowledgements
 
-This project was built as part of **[The Ultimate React Course: React, Next.js, Redux & More](https://www.udemy.com/course/the-ultimate-react-course/)** by **[Jonas Schmedtmann](https://jonas.io/)**. 
-
-Special thanks to Jonas for providing the application design, project requirements, and the restaurant demo API.
+* **Original Concept & Instructor:** This project is inspired by the pizza ordering application designed by **[Jonas Schmedtmann](https://jonas.io/)** in his course **[The Ultimate React Course: React, Next.js, Redux & More](https://www.udemy.com/course/the-ultimate-react-course/)**. Huge thanks to Jonas for creating the original UI design, project specifications, and hosting the mock restaurant API.
+* **TypeScript Re-architecture:** Jonas's original course teaches this project in JavaScript (JS). I leveraged his project concept and expanded upon his teachings to architect and build this entire project from scratch in **TypeScript (TS)**. This allowed me to dive deep into advanced TypeScript patterns—such as strictly typed Redux Toolkit slices (`.withTypes<T>()`), React Router v7 Data APIs (`ActionFunctionArgs`, `LoaderFunctionArgs`), domain interface modeling, and compile-time type safety across the entire application.
 
